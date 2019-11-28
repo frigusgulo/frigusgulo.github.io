@@ -2,3 +2,24 @@
 remote_theme: mmistakes/minimal-mistakes@4.17.2
 plugins:
 - jekyll-include-cache
+locale: "en-US"
+title: "My Academic Webpage"
+name: "Franklyn Dunbar"
+description: "Research and Trips"
+url: "https://frigusgulo.github.io"
+search: true
+logo: "/Assets/Images/headshot.jpg"
+author:
+        name: "Franklyn Dunbar"
+        avatar: "https://frigusgulo.github.io"
+        bio: "I am a computer science graduate student at the University of Montana focusing on geophysics, machine learning, and computer vision"
+        location: "Missoula, MT, USA"
+defaults:
+# _pages
+- scope:
+path: ""
+type: pages
+values:
+layout: single
+author_profile: true
+
