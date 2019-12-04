@@ -36,6 +36,4 @@ defaults:
         paginate_path: /page:num/
 include:
         - _pages
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-include-cache
 
