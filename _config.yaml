@@ -14,7 +14,7 @@ author:
         avatar: "/Assets/Images/headshot.jpg"
 defaults:
         # _Pages
-        - scope:
+        -scope:
                 path: ""
                 type: pages
         values:
@@ -22,7 +22,7 @@ defaults:
                 author_profile: true
 defaults:
         #_Posts
-        - scope:
+        -dscope:
                 path: ""
                 type: posts
         values:
@@ -35,5 +35,5 @@ defaults:
         paginate: 5
         paginate_path: /page:num/
 include:
-        - _Pages
+        -_Pages
 
