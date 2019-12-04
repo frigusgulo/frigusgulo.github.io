@@ -11,36 +11,31 @@ search: true
 logo: "/Assets/Images/headshot.jpg"
 author:
         name: "Franklyn Dunbar"
-        avatar : "/Assets/Images/headshot.jpg"
-        bio : "I am Graduate Student in Computer Science at The University of Montana"
-        location : "Missoula, MT,USA"
+        avatar: "/Assets/Images/headshot.jpg"
 defaults:
-        #_Pages
+        # _Pages
         - scope:
-        path: ""
-        type: pages
+                path: ""
+                type: pages
         values:
-        layout: single
-        author_profile: true
-
+                layout: single
+                author_profile: true
 defaults:
-        # _Posts
-        :- scope:
-        path: ""
-        type: posts
+        #_Posts
+        - scope:
+                path: ""
+                type: posts
         values:
-        layout: single
-        author_profile: true
-        read_time: true
-        comments: true
-        share: true
-        related: true
+                layout: single
+                author_profile: true
+                read_time: true
+                comments: true
+                share: true
+                related: true
         paginate: 5
         paginate_path: /page:num/
-
 include:
-        -_Pages
+        - _pages
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache
 
-main:
-        - title: "CV"
-          url: /cv/
