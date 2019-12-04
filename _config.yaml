@@ -35,5 +35,5 @@ defaults:
         paginate: 5
         paginate_path: /page:num/
 include:
-        - _pages
+        - _Pages
 
