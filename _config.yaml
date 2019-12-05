@@ -36,4 +36,4 @@ defaults:
         paginate_path: /page:num/
 include:
         -_Pages
-
+github: [metadata]
