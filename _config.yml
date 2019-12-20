@@ -63,7 +63,7 @@ author:
   avatar : "/assets/images/headshot.jpg"
   bio    : "Climber, Skiier, Hunter, Commercial Fisherman"
   links:
-          - label: "Website"
+    - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://frigusgulo.github.io"
     - label: "Twitter"
