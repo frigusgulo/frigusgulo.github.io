@@ -1,9 +1,9 @@
 main:
-        -title: "Usefull Resources"
-         url: /resources
-        
-        -title: "Journal"
-         url: /journal
-
-        -title: "Research"
-         url: /research
+  - title: "Posts"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "About"
+    url: /about/
