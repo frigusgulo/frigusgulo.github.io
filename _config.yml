@@ -20,8 +20,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   machine learning, filtering methods, and statistics. My scientific interests include glacilogy (what can we infer from remote sensing data and modeling?), cryosphere-biosphere interactions
   (what impact do glaciers have on their surrounding environments?), and general geological topics (ore geology, paleo-oceanography,etc.).
 
-twitter_username: @dunbar_franklyn
-github_username: frigusgulo
+twitter_username: "@dunbar_franklyn"
+github_username: "frigusgulo"
 minimal_mistakes_skin: default
 search: true
 
