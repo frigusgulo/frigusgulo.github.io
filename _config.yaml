@@ -3,9 +3,9 @@ remote_theme: mmistakes/minimal-mistakes@4.17.2
 plugins:
 - jekyll-include-cache
 locale: "en-US"
-title: "My Academic Webpage"
+title: "Research Work and Trips"
 name: "Franklyn Dunbar"
-description: "Research and Trips"
+description: "This page highlights my efforts in academic research and climbing trips"
 url: "https://frigusgulo.github.io"
 search: true
 logo: "/Assets/Images/headshot.jpg"
@@ -15,7 +15,7 @@ author:
 defaults:
         # _Pages
         -scope:
-                path: ""
+                path: "/pages"
                 type: pages
         values:
                 layout: single
@@ -23,7 +23,7 @@ defaults:
 defaults:
         #_Posts
         -dscope:
-                path: ""
+                path: "/posts"
                 type: posts
         values:
                 layout: single
@@ -36,4 +36,5 @@ defaults:
         paginate_path: /page:num/
 include:
         -_Pages
+        -_data
 github: [metadata]
