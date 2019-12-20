@@ -1,0 +1,9 @@
+main:
+        -title: "Usefull Resources"
+         url: /resources
+        
+        -title: "Journal"
+         url: /journal
+
+        -title: "Research"
+         url: /research
